@@ -10,3 +10,13 @@ tree /F
 # arvore do projeto em .txt
 tree /F > estrurura.txt ("estrutura" é o nome dado ao arquivo)
 
+# confirmar repositório git
+git remote -v
+
+# para confirmar que está na branch certa
+git branch
+
+# para enviar novas alterações
+git add .
+git commit -m "mensagem"
+git push
